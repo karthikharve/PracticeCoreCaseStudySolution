@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Practice.Core.DataAccess.Interfaces\Practice.Core.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\Practice.Core.Models\Practice.Core.Models.csproj" />
+    <ProjectReference Include="..\Practice.Core.ORM.Interfaces\Practice.Core.ORM.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4213/",
+      "sslPort": 44335
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Practice.Core.Applications.WebApplication": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      //Because of seeting Environment variable here wherever the profile "Practice.Core.Applications.WebApplication" is used either from VS or from cmd, ASNETCORE_ENVIRONMENT variable is always taking as "DEVELOPMENT". So comment this line and set from cmd.
+
+      "applicationUrl": "https://localhost:4213;http://localhost:5000;"
+    }    
+  }
+}

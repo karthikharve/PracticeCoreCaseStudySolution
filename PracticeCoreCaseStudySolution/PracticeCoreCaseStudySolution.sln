@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{CECED9DC-6345-4585-BB92-9B7BD761606D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM Interfaces", "ORM Interfaces", "{EB36BD2A-1869-4868-A227-62BEBEB34093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM Implementations", "ORM Implementations", "{78C84B63-B7EE-4BBB-973A-E012B95854CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Interfaces", "Data Access Interfaces", "{A65034B6-1A80-4B9F-94C9-970AF5A24229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Implementations", "Data Access Implementations", "{958E0FA3-75C4-48B1-9C15-8C5BBEEB9026}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{D85C4EE5-A5B6-4CE7-88AB-342474D8C8BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Core.Models", "Practice.Core.Models\Practice.Core.Models.csproj", "{D5AE2184-F0A7-46BF-AC7B-76B5ECFCBF3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Core.ORM.Interfaces", "Practice.Core.ORM.Interfaces\Practice.Core.ORM.Interfaces.csproj", "{EB972374-8204-4BFC-ACD6-B367CBA939A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Core.ORM.Implementations", "Practice.Core.ORM.Implementations\Practice.Core.ORM.Implementations.csproj", "{A772F2FF-23D6-41CB-92EA-7923BBCE2ACC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Core.DataAccess.Interfaces", "Practice.Core.DataAccess.Interfaces\Practice.Core.DataAccess.Interfaces.csproj", "{5B73922A-4703-4BE6-B9FD-0340E81E5772}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Core.DataAccess.Implementations", "Practice.Core.DataAccess.Implementations\Practice.Core.DataAccess.Implementations.csproj", "{A20FB4F1-E26B-4BE3-A0D8-1CBC9899746E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Core.Applications.WebApplication", "Practice.Core.Applications.WebApplication\Practice.Core.Applications.WebApplication.csproj", "{6DA6604B-A4B8-4C7C-B106-C77A22056EFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{A9F34B91-0D99-4F66-A60E-3C29F327C9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Core.Test", "Practice.Core.Test\Practice.Core.Test.csproj", "{0554758A-02F9-4DA1-9829-A3666A2F4F87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5AE2184-F0A7-46BF-AC7B-76B5ECFCBF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AE2184-F0A7-46BF-AC7B-76B5ECFCBF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AE2184-F0A7-46BF-AC7B-76B5ECFCBF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AE2184-F0A7-46BF-AC7B-76B5ECFCBF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB972374-8204-4BFC-ACD6-B367CBA939A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB972374-8204-4BFC-ACD6-B367CBA939A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB972374-8204-4BFC-ACD6-B367CBA939A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB972374-8204-4BFC-ACD6-B367CBA939A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A772F2FF-23D6-41CB-92EA-7923BBCE2ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A772F2FF-23D6-41CB-92EA-7923BBCE2ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A772F2FF-23D6-41CB-92EA-7923BBCE2ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A772F2FF-23D6-41CB-92EA-7923BBCE2ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B73922A-4703-4BE6-B9FD-0340E81E5772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B73922A-4703-4BE6-B9FD-0340E81E5772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B73922A-4703-4BE6-B9FD-0340E81E5772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B73922A-4703-4BE6-B9FD-0340E81E5772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20FB4F1-E26B-4BE3-A0D8-1CBC9899746E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20FB4F1-E26B-4BE3-A0D8-1CBC9899746E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20FB4F1-E26B-4BE3-A0D8-1CBC9899746E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20FB4F1-E26B-4BE3-A0D8-1CBC9899746E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA6604B-A4B8-4C7C-B106-C77A22056EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA6604B-A4B8-4C7C-B106-C77A22056EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA6604B-A4B8-4C7C-B106-C77A22056EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA6604B-A4B8-4C7C-B106-C77A22056EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0554758A-02F9-4DA1-9829-A3666A2F4F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0554758A-02F9-4DA1-9829-A3666A2F4F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0554758A-02F9-4DA1-9829-A3666A2F4F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0554758A-02F9-4DA1-9829-A3666A2F4F87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5AE2184-F0A7-46BF-AC7B-76B5ECFCBF3A} = {CECED9DC-6345-4585-BB92-9B7BD761606D}
+		{EB972374-8204-4BFC-ACD6-B367CBA939A3} = {EB36BD2A-1869-4868-A227-62BEBEB34093}
+		{A772F2FF-23D6-41CB-92EA-7923BBCE2ACC} = {78C84B63-B7EE-4BBB-973A-E012B95854CD}
+		{5B73922A-4703-4BE6-B9FD-0340E81E5772} = {A65034B6-1A80-4B9F-94C9-970AF5A24229}
+		{A20FB4F1-E26B-4BE3-A0D8-1CBC9899746E} = {958E0FA3-75C4-48B1-9C15-8C5BBEEB9026}
+		{6DA6604B-A4B8-4C7C-B106-C77A22056EFC} = {D85C4EE5-A5B6-4CE7-88AB-342474D8C8BA}
+		{0554758A-02F9-4DA1-9829-A3666A2F4F87} = {A9F34B91-0D99-4F66-A60E-3C29F327C9DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A3713F-2955-4E4F-8A4F-35DF478E428D}
+	EndGlobalSection
+EndGlobal
